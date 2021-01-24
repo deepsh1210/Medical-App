@@ -40,7 +40,7 @@ class _RoutingServiceState extends State<RoutingService> {
           Icon(FontAwesomeIcons.lungsVirus, size: 30, color: Colors.white),
           Icon(FontAwesomeIcons.userAlt, size: 30, color: Colors.white),
         ],
-        color: Colors.teal,
+        color: Colors.lightBlue,
         buttonBackgroundColor: Colors.black,
         backgroundColor: Colors.black,
         animationCurve: Curves.easeInOut,
