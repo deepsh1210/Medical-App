@@ -39,16 +39,6 @@ class OnboardingScreen extends StatelessWidget {
                     SizedBox(
                       height: 20,
                     ),
-                    Text(
-                      'Lorem ipsum dolor amet, consectetur\nadipiscing inet deli',
-                      style: TextStyle(
-                        fontSize: 16,
-                        color: kTitleTextColor.withOpacity(0.7),
-                      ),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
                     MaterialButton(
                       onPressed: () {
                         Navigator.push(
@@ -70,6 +60,45 @@ class OnboardingScreen extends StatelessWidget {
                         style: TextStyle(
                           color: kWhiteColor,
                           fontSize: 16,
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 230,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 180),
+                      child: Text(
+                        "Swipe to get more",
+                        textAlign: TextAlign.left,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 180),
+                      child: Text(
+                        "information on",
+                        textAlign: TextAlign.left,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 180),
+                      child: Text(
+                        "Coronavirus",
+                        textAlign: TextAlign.left,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                          color: Colors.black,
                         ),
                       ),
                     ),

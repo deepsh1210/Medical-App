@@ -21,7 +21,15 @@ class HomeScreen extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    SvgPicture.asset('assets/icons/menu.svg'),
+                    GestureDetector(
+                      child: Icon(
+                        Icons.arrow_back_ios,
+                        color: Colors.black,
+                      ),
+                      onTap: () {
+                        Navigator.pop(context);
+                      },
+                    ),
                     SvgPicture.asset('assets/icons/profile.svg'),
                   ],
                 ),

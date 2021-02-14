@@ -6,7 +6,7 @@ class UserInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color(0xFF5957A1),
+        backgroundColor: Colors.blue,
         body: SafeArea(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -28,7 +28,7 @@ class UserInfo extends StatelessWidget {
               'beemaarCurry@gmail.com',
               style: TextStyle(
                 fontFamily: 'Source Sans Pro',
-                color: Color(0xFF958BD1),
+                color: Colors.white,
                 fontSize: 20.0,
                 letterSpacing: 2.5,
                 fontWeight: FontWeight.bold,
